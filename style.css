@@ -1,0 +1,183 @@
+* {
+    font-family: 'arsenalregular';
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+nav a:hover {
+    text-decoration: line-through;
+
+}
+
+nav a {
+    color: #000000;
+}
+
+@import url("fonts/stylesheet.css");
+
+h1{
+    font-weight:lighter;
+    font-style: normal;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+hr{
+    height: 1px;
+    width: 50%;
+    border:none;
+    background-color:black;
+
+}
+
+#contentwrapper{
+    width:1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+li{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+header{
+	text-align: center;
+	font-weight: lighter;
+}
+
+nav{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer{
+	text-align: center;
+    margin-top: 120px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+#frmRegister{
+    margin: auto;
+    width: 600px;
+}
+#content{
+    margin: auto;
+    text-align: left;
+    width: 600px;
+}
+fieldset {
+    border: 0;
+    width: 440px;
+}
+
+fieldset.wrapper {
+   
+    margin: 50px;
+}
+
+fieldset.wrapper legend {
+    color: #	#000000;
+    font-weight: bold; 
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+fieldset.wrapper > legend {
+    /* not supported in ie. i only want a legend if it follows the class wrapper */
+    font-size: 2em; 
+}
+
+label {
+    color: #000000;
+    font-weight: lighter;
+    font-size: .9em; 
+    display: block;
+}
+
+.required {
+    font-weight:bolder;
+    font-style:italic;
+}
+
+label.required:before {
+    content: "* ";
+}
+
+span.required:after {
+    color: #000000;
+    content:;
+}
+
+input {
+    display: inline; 
+    width: 430px; 
+    margin-bottom: 10px;
+}
+
+input.hidden {
+    display: inline; 
+    width: 0; 
+    margin-bottom: 0px;
+}
+
+label input {
+    display: inline;
+    width: auto;
+    margin: 0 5px 0 0;
+}
+
+input.button {
+    display: inline;
+    width: auto;
+    margin: 0 0 0 100px;
+    text-align:center;
+}
+
+form {
+    background : #FFFFFF;
+    width: 100%;
+}
+
+.mistake {
+    color: 	#000000;
+    background-color:#800000;
+
+#errors ol li{
+    color: 	#000000;
+}
+
+table{
+    margin-left: 3em;
+}
+
+th{
+    background-color: #000000;
+}
+
+td, th {
+    padding: 1em;
+}
+
+tr.odd{
+    background-color: #000000;
+}
+
+
+tr.even{
+    background-color: #000000;
+}
+
+tr:hover{
+    background-color: #000000;
+}
